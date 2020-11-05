@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
+
+body{
+    background-color: #5BE9D8;
+    color: #f5f5f5;
+    font-family: Lato;
+}
+header {
+    color: #777777;
+    background: #f5f5f5;
+    letter-spacing: 5px;
+    height: 80px;
+    margin: 5px;
+    width: auto;
+}
+#logo{
+       float: left;
+       font-size: 280%;
+	   margin-left: 30px;
+       font-family: Lato;
+      
+}
+#logo a:hover{
+    text-decoration: none;
+    color:  #777777;
+}
+#menu{
+       font-size: 110%;    
+       list-style-type: none; 
+       letter-spacing: 4px;
+}
+
+#logo, #menu{
+  line-height: 75px;
+}
+
+#menu li{
+        float: right;
+        margin-right: 30px;
+
+}
+
+a{
+        text-decoration: none;
+        color: inherit;
+}
+ a:hover{
+        border-bottom: 1px solid #777777;
+        text-decoration: none;
+        color:  #5BE9D8;
+}
+#about-us{
+   height:100%;
+   background-color: #f5f5f5;
+   color: #777777;
+}
+
+
+.product-nav a:hover{
+    border-bottom: 1px solid #777777;
+    text-decoration: none;
+    color:  #777777;
+}
+
+.product-nav{
+    
+    font-size: 200%;
+    color: #5BE9D8;
+    text-transform: uppercase;
+    text-align: center;
+    
+   }
+
+.product-nav a{
+    line-height: 295px;
+
+}
+
+
+
+#Cani{
+
+}
+
+.product-nav#Cavalli{
+    background: url(../images/Horse-bg.jpeg);
+    background-position: center;
+    background-size: 100%;
+}
+
+#accessori{
+    
+}
+
+#personalize{
+   
+}
+
+
+
+
+
+
+#welcome, #our-collars2{
+  text-align: center;
+  margin: 20px 0;
+  border: solid #f5f5f5 20px;
+  font-size: 200%;
+  font-family: Lato;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+footer{
+	height: 150px;
+}
+.social-networks{
+	text-align: center;
+	}
+
+.social-networks li{
+	display: inline;
+}
+.social-networks i{
+  font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #777777
+}
+
+
+
